@@ -174,5 +174,14 @@ partners = [
             ),
         ],
     ),
+    Partner(
+        name="Mover",
+        treasury='0xf6A0307cb6aA05D7C19d080A0DA9B14eAB1050b7',
+        wrappers=[
+            WildcardWrapper(
+                name="Savings",
+                wrapper="0x541d78076352a884C8358a2ac3f36408b99a18dB",
+            ),
+        ],
+    ),    
 ]
-
